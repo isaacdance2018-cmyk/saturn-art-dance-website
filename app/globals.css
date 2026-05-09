@@ -470,3 +470,35 @@ p { line-height: 1.75; }
     margin-top: 10px !important;
   }
 }
+
+@media (max-width: 900px) {
+
+  .container {
+    padding-left: 34px !important;
+    padding-right: 34px !important;
+  }
+
+  .hero-grid {
+    padding-top: 58px !important;
+    gap: 42px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+    line-height: 1.22 !important;
+  }
+
+  .hero-text {
+    font-size: 15px !important;
+    line-height: 1.95 !important;
+    max-width: 100% !important;
+  }
+
+  .button {
+    border-radius: 999px !important;
+  }
+
+  .hero-image {
+    height: 260px !important;
+  }
+}
