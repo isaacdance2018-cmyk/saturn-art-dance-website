@@ -75,8 +75,8 @@ export default function Home() {
             <h2>Start your dance journey with us.</h2>
           </div>
           <div className="contact-card">
-            <p><strong>Mitcham校区：</strong><br />21 Rooks Rd, Mitcham VIC 3132</p>
-            <p><strong>Moorabbin校区：</strong><br />5/445 Warrigal Rd, Moorabbin VIC 3189</p>
+            <p><strong>Mitcham Campus：</strong><br />21 Rooks Rd, Mitcham VIC 3132</p>
+            <p><strong>Moorabbin Campus：</strong><br />5/445 Warrigal Rd, Moorabbin VIC 3189</p>
             <p><strong>Email：</strong><br />saturndance2022@gmail.com</p>
           </div>
         </div>
