@@ -255,38 +255,36 @@ p { line-height: 1.75; }
 }
 
 @media (max-width: 900px) {
-  .nav { display: none; }
+  .container {
+    padding: 0 28px;
+  }
+
+  .nav {
+    display: none;
+  }
 
   .mobile-menu-wrapper {
     display: block;
   }
 
   .navbar {
-    min-height: 74px;
+    min-height: 86px;
+    padding: 0;
   }
 
   .brand-title {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.2;
   }
 
   .brand-subtitle {
-    font-size: 10px;
-    letter-spacing: 0.16em;
+    font-size: 11px;
+    letter-spacing: 0.14em;
   }
 
-  .hero-grid,
-  .grid-4,
-  .grid-3,
-  .grid-2 {
-    grid-template-columns: 1fr;
-  }
-
-  h1 {
-    font-size: 44px;
-  }
-
-  h2 {
-    font-size: 34px;
+  .menu-button {
+    padding: 10px 18px;
+    font-size: 14px;
   }
 
   .hero {
@@ -294,15 +292,61 @@ p { line-height: 1.75; }
   }
 
   .hero-grid {
-    padding: 64px 0;
-    gap: 34px;
+    grid-template-columns: 1fr;
+    padding: 76px 0 56px;
+    gap: 42px;
+  }
+
+  .label {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    margin-bottom: 22px;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 1.12;
+    letter-spacing: -0.035em;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .hero-text {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-top: 26px;
+  }
+
+  .actions {
+    gap: 12px;
+    margin-top: 30px;
+  }
+
+  .button {
+    padding: 13px 22px;
+    font-size: 15px;
   }
 
   .hero-image {
-    height: 360px;
+    height: 320px;
+    border-radius: 28px;
+  }
+
+  .grid-4,
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
   }
 
   .section {
-    padding: 64px 0;
+    padding: 68px 0;
+  }
+
+  .card,
+  .contact-card {
+    padding: 26px;
+    border-radius: 24px;
   }
 }
