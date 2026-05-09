@@ -388,3 +388,42 @@ p { line-height: 1.75; }
     padding: 28px 20px;
   }
 }
+
+@media (max-width: 900px) {
+  .header {
+    overflow: hidden !important;
+  }
+
+  .navbar {
+    padding: 0 22px !important;
+    min-height: 78px !important;
+    gap: 12px !important;
+  }
+
+  .brand-title {
+    font-size: 18px !important;
+    line-height: 1.15 !important;
+    max-width: 220px !important;
+    white-space: normal !important;
+  }
+
+  .brand-subtitle {
+    font-size: 10px !important;
+    letter-spacing: 0.13em !important;
+    max-width: 220px !important;
+    white-space: nowrap !important;
+  }
+
+  .menu-button {
+    padding: 9px 16px !important;
+    font-size: 13px !important;
+  }
+
+  .mobile-menu {
+    right: 0 !important;
+  }
+
+  .hero-grid {
+    padding-top: 52px !important;
+  }
+}
