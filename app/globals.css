@@ -427,3 +427,46 @@ p { line-height: 1.75; }
     padding-top: 52px !important;
   }
 }
+
+@media (max-width: 900px) {
+
+  .hero-grid {
+    padding: 40px 0 50px !important;
+    gap: 34px !important;
+  }
+
+  .hero-text-area {
+    padding: 0 6px !important;
+  }
+
+  h1 {
+    font-size: 34px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.03em !important;
+    margin-bottom: 22px !important;
+  }
+
+  .hero-text {
+    font-size: 16px !important;
+    line-height: 1.9 !important;
+    margin-top: 22px !important;
+    color: #5f564d !important;
+  }
+
+  .label {
+    margin-bottom: 18px !important;
+  }
+
+  .actions {
+    margin-top: 28px !important;
+  }
+
+  .button {
+    padding: 16px 24px !important;
+    font-size: 16px !important;
+  }
+
+  .hero-image {
+    margin-top: 10px !important;
+  }
+}
