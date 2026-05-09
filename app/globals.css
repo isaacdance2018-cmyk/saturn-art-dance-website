@@ -502,3 +502,17 @@ p { line-height: 1.75; }
     height: 260px !important;
   }
 }
+
+@media (max-width: 900px) {
+  .header {
+    overflow: visible !important;
+  }
+
+  .mobile-menu-wrapper {
+    z-index: 9999 !important;
+  }
+
+  .mobile-menu {
+    z-index: 9999 !important;
+  }
+}
