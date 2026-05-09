@@ -1,6 +1,11 @@
 export default function Home() {
   return (
-    <main style={{padding: "40px", fontFamily: "Arial"}}>
+    <main style={{
+      padding: "40px",
+      fontFamily: "Arial",
+      background: "#f5f1ea",
+      minHeight: "100vh"
+    }}>
       <h1>Saturn Art Dance Studio</h1>
 
       <h2>Mitcham 校区</h2>
